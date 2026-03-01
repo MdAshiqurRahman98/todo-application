@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('To-Do', style: TextStyle(fontWeight: FontWeight.w600)),
+        title: Text('To-Do App', style: TextStyle(fontWeight: FontWeight.w600)),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
